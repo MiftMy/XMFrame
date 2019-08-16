@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  XMFrame
+//
+//  Created by 梁小迷 on 11/8/19.
+//  Copyright © 2019年 Mifit. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifndef kMifitRuntimeSwizzled
+// 把扩展安全的Foundation加进来
+#import "NSArray+XMSafe.h"
+#import "NSMutableArray+XMSafe.h"
+#import "NSDictionary+XMSafe.h"
+#import "NSMutableDictionary+XMSafe.h"
+#import "NSString+XMSafe.h"
+#import "NSMutableString+XMSafe.h"
+#import "NSURL+XMSafe.h"
+#import "NSObject+XMSafe.h"
+#import "NSMutableData+XMSafe.h"
+
+#endif
+
+// 把扩展的Foundation加进来
+#import "NSString+XMTools.h"
+#import "NSFileManager+XMTools.h"
+#import "NSData+XMTools.h"
+
+// 把扩展的UIKit加进来
+#import "UIApplication+Tools.h"
+#import "UICollectionView+XMTools.h"
+#import "UITableView+XMTools.h"
+#import "UIViewController+XMTools.h"
+#import "UIButton+XMTools.h"
+#import "UIDevice+XMTools.h"
+#import "UIScreen+XMTools.h"
+#import "UIColor+XMTools.h"
+#import "UIImage+XMTools.h"
+#import "UIView+XMTools.h"
+
+#endif /* PrefixHeader_pch */
