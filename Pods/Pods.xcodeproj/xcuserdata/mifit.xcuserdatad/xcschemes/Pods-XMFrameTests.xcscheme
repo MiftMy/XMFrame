@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C923399CBC728E5745E142304692CC0E"
+               BlueprintIdentifier = "1445248EB754E4EB93F800BC9C1C8680"
+               BuildableName = "libPods-XMFrameTests.a"
                BlueprintName = "Pods-XMFrameTests"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-XMFrameTests.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
